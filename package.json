@@ -1,0 +1,19 @@
+{
+	"name": "nodejs_m-pago",
+	"version": "1.0.0",
+	"description": "Mercado Pago payment server with Node.Js",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon src/index.js"
+	},
+	"keywords": [],
+	"author": "Enrique J. Spinelli",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"mercadopago": "^2.0.9",
+		"morgan": "^1.10.0"
+	}
+}
